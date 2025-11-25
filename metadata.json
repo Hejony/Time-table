@@ -1,0 +1,5 @@
+{
+  "name": "Graduation Show Time Table",
+  "description": "A mobile-styled reservation system for a graduation exhibition with admin presence toggles and guestbook features.",
+  "requestFramePermissions": []
+}
