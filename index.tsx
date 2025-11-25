@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+// import './index.css'; // Removed to prevent browser parsing errors with Tailwind directives
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
