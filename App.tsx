@@ -248,8 +248,8 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 bg-gray-100 font-sans">
-      {/* Mobile Frame */}
-      <div className="relative w-full max-w-[400px] h-[850px] bg-white rounded-[3rem] shadow-2xl border-[8px] border-gray-900 overflow-hidden flex flex-col">
+      {/* Mobile Frame - Added max-h for responsiveness */}
+      <div className="relative w-full max-w-[400px] h-[850px] max-h-[90vh] bg-white rounded-[3rem] shadow-2xl border-[8px] border-gray-900 overflow-hidden flex flex-col">
         
         {/* Notch Area */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-gray-900 rounded-b-xl z-20"></div>
