@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useCallback } from 'react';
 import { Settings, User, Plus, Lock, RefreshCw, Cloud, WifiOff } from './components/Icons';
 import { SCHEDULE, INITIAL_STATUS } from './constants';
@@ -248,8 +247,8 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 bg-gray-100 font-sans">
-      {/* Mobile Frame - Added max-h for responsiveness */}
-      <div className="relative w-full max-w-[400px] h-[850px] max-h-[90vh] bg-white rounded-[3rem] shadow-2xl border-[8px] border-gray-900 overflow-hidden flex flex-col">
+      {/* Mobile Frame - Using dvh for better mobile support */}
+      <div className="relative w-full max-w-[400px] h-[850px] max-h-[90dvh] bg-white rounded-[3rem] shadow-2xl border-[8px] border-gray-900 overflow-hidden flex flex-col">
         
         {/* Notch Area */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-gray-900 rounded-b-xl z-20"></div>

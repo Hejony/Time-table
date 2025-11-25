@@ -8,8 +8,10 @@
     <!-- Pretendard Variable Font -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
     
-    <!-- Tailwind CSS CDN (스타일 연결 오류 방지용) -->
+    <!-- Tailwind CSS CDN (강제 주입) -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind 설정 (색상 및 폰트 강제 적용) -->
     <script>
       tailwind.config = {
         theme: {
@@ -26,6 +28,24 @@
       }
     </script>
 
+    <!-- 글로벌 스타일 (스크롤바 숨김 등) -->
+    <style>
+      body {
+        background-color: #f3f4f6;
+        margin: 0;
+        color: #111827;
+        font-family: "Pretendard Variable", Pretendard, sans-serif;
+      }
+      
+      /* 스크롤바 숨기기 기능 */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
   <script type="importmap">
 {
   "imports": {
