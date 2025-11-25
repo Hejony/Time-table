@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // GitHub Pages나 서브 경로 배포 시 리소스 404 오류 방지
+  // 개발 서버에서의 경로 문제를 방지하기 위해 base 설정을 기본값(/)으로 유지
 });

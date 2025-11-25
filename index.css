@@ -1,8 +1,1 @@
-/* 
-  스타일은 index.html 내의 Tailwind CDN과 <style> 태그에서 처리됩니다.
-  이 파일은 빌드 도구 오류 방지를 위한 플레이스홀더입니다.
-*/
-body {
-  margin: 0;
-  padding: 0;
-}
+/* CSS 로드 오류 방지용 빈 파일 */
